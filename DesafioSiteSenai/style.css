@@ -1,0 +1,15 @@
+
+}
+img{
+    left: 35px;
+    bottom: 33px;
+}
+.box1{
+    position: sticky;
+    top: 0;
+    z-index: -5px;
+    width: 1024px;
+    height:90px; 
+    background-color: rgb(85, 85, 85, 0.95);
+    
+}
