@@ -1,15 +1,235 @@
 
+body{
+    margin: 0px;
+    font-family: "Anek Devanagari", sans-serif;
 }
-img{
-    left: 35px;
-    bottom: 33px;
+a {
+    color: aliceblue;
+    text-decoration: none;
 }
-.box1{
-    position: sticky;
-    top: 0;
-    z-index: -5px;
-    width: 1024px;
+
+.box2{
+    z-index: 2;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
     height:90px; 
     background-color: rgb(85, 85, 85, 0.95);
+}
+
+.imgsenai{
+    z-index: 2;
+    position: fixed;
+    width: 180px;
+    height: 180px;
+    left: 30px;
+    top: 15px;
+}
+
+
+
+.cadastrese{
+    z-index: 2;
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    display: inline-block; /* Faz o elemento se ajustar ao conteúdo */
+  padding: 15px 70px; /* Espaçamento interno */
+  background-color: red; /* Cor de fundo inicial */
+  color: white; /* Cor do texto inicial */
+  text-align: center; /* Alinha o texto ao centro */
+  text-decoration: none; /* Remove o sublinhado do link, se for o caso */
+  font-size: 14px; /* Tamanho da fonte */
+  font-weight: bold; /* Deixa o texto em negrito */
+  border-radius: 5px; /* Bordas arredondadas */
+  border: 1px solid red; /* Borda vermelha */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave */
+}
+
+.cadastrese:hover{
+    z-index: 2;
+    background-color: rgb(134, 134, 134); /* Cor de fundo em hover */
+  color: white; /* Cor do texto em hover */
+  border: 1px solid black; /* Borda preta em hover */
+
+}
+
+.letra1{
+    z-index: 2;
+    color: white;
+    font-size: 20px;
     
+}
+
+.home{
+    z-index: 2;
+    position: fixed;
+    left: 680px;
+    top: 35px;
+    color: aliceblue;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave */
+}
+
+.home:hover{
+    color: rgb(0, 0, 0) ;
+}
+
+.cursos{
+    z-index: 2;
+    position: fixed;
+    left: 770px;
+    top: 35px;
+    color: aliceblue;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave */
+}
+.cursos:hover{
+    color:black
+}
+
+.contato{
+    z-index: 2;
+    position: fixed;
+    left: 860px;
+    top: 35px;
+    color: aliceblue;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave */
+}
+.contato:hover{
+    color: black;
+}
+
+
+a:hover{
+    color: black;
+}
+.home:hover{
+    color: black;
+}
+.contato:hover{
+    color: black;
+}
+.cursos:hover{
+    color: black;
+}
+.contato:hover{
+    color: black;
+}
+
+.zap{
+    z-index: 2;
+    align-items: center;
+    background-color: greenyellow;
+    padding: 5px 5px;
+    border-radius: 2000px;
+    position: fixed;
+    left: 1150px;
+    top: 300px;
+    width: 70px;
+    height: 70px;
+}
+
+/* *********MAIN ****** */
+
+main{
+    position: relative;
+    z-index: -1;
+}
+
+.img2{
+    width: 1270px;
+    left: 0%;
+    
+}
+
+.acessar1{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.886);
+    top:20%;
+    left: 10%;
+    width: 300px;
+    height: 150px;
+    /* font-size: 20px; */
+    border-radius: 10px;
+    /* font-size: 100%; */
+}
+
+.acessar2{
+    position: absolute;
+    height: 25px;
+    width: 60px;
+    background-color: red;
+    /* margin-left: 200px;
+    margin-top: -470px; */
+    padding: 3px 6px;
+    left: 300px;
+    top: 250px;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.opa{
+    font-size: 30px;
+    margin-left: 10px;
+    top: 20px;
+}
+.online{
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+.p2{
+    margin-left: 370px;
+    font-size: 30px;
+}
+
+.imgprograma{
+    animation-name: cor;
+    animation-duration: 3s;
+    margin-left: 390px;
+    height: 250px;
+    width: 450px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    width: 1920px;
+    height:90px; 
+    background-color: rgb(85, 85, 85, 0.95);
+    border-top: 1px dashed red;
+}
+.imgfinal{
+/* z-index: 2;
+position: absolute; */
+width: 150px;
+height: 50px;
+margin-left: 100px;
+
+}
+
+.txtfinal{
+/* z-index: 2; */
+text-align: center;
+color: #fff;
+margin-right: 850px;
+
+}
+
+@keyframes cor{
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    50% {
+        filter: hue-rotate(180deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+
+}
+
+.p4{
+    margin-left: 10px;
 }
